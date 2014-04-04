@@ -1,0 +1,7 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Google Cloud Messaging",
+    "packageVersion": "2.6.1",
+    "useSass": false
+  }
+}

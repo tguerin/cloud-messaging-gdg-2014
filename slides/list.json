@@ -1,0 +1,24 @@
+[
+  "index.html",
+  "slide1_google-cloud-messaging.html",
+  "slide2_send-to-sync-message.html",
+  "slide3_message-with-payload.html",
+  "slide4_main-advantages.html",
+  "slide5_data-flow.html",
+  "slide6_prerequisites.html",
+  "slide7_from-server-to-gcm.html",
+  "slide8_simple-as-a-post.html",
+  "slide9_message-format.html",
+  "slide10_sample-request.html",
+  "slide11_response-format.html",
+  "slide12_from-gcm-to-device.html",
+  "slide13_permissions.html",
+  "slide14_play-services-are-you-there.html",
+  "slide15_registration.html",
+  [
+    "slide16_1_message-reception.html",
+    "slide16_2_message-reception.html"
+  ],
+  "slide17_whats-new.html",
+  "slide18_demo.html"
+]
