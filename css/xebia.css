@@ -171,7 +171,7 @@ body {
 }
 
 .logo {
-    background-image: url('/img/xebia_156x52.png');
+    background-image: url('../img/xebia_156x52.png');
     width: 156px;
     height: 52px;
     position: absolute;
