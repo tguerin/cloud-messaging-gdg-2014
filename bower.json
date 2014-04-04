@@ -1,7 +1,0 @@
-{
-  "name": "google-cloud-messaging",
-  "version": "2.6.1",
-  "dependencies": {
-    "reveal.js": "~2.6.1"
-  }
-}
