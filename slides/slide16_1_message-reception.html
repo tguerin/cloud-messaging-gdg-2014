@@ -1,0 +1,22 @@
+<h2>Message reception</h2>
+<h3>Broadcast Receiver</h3>
+
+
+<pre>
+    <code class="java">public class GcmBroadcastReceiver extends WakefulBroadcastReceiver {
+
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        ComponentName comp = new ComponentName(context.getPackageName(),
+        GcmMessageHandlerIntentService.class.getName());
+
+        startWakefulService(context, intent.setComponent(comp));
+
+        setResultCode(Activity.RESULT_OK);
+    }
+
+}</code>
+</pre>
+
+
+

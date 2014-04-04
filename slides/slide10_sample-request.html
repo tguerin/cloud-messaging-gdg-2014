@@ -1,0 +1,21 @@
+<h2>Sample request</h2>
+
+<pre>
+    <code class="javascript">var request = require('request');
+...
+request(
+    {   method: 'POST',
+        uri:"https://android.googleapis.com/gcm/send",
+        headers:{'Content-type': 'application/json',
+                 'Authorization': 'key=YOUR_KEY'},
+        json:{
+            'registration_ids': ['1', '2', '3', '4', '5', '6'],
+            'collapse_key': 'Update now'
+        }
+        },function(err,res,gcmResult){
+            // Handle the result
+        }
+    }
+)
+    </code>
+</pre>

@@ -1,0 +1,13 @@
+<h2>Registration</h2>
+
+<pre>
+    <code class="java">try {
+    GoogleCloudMessaging gcm = GoogleCloudMessaging.getInstance(context);
+    String registrationId = gcm.register(getString(R.string.sender_id));
+    if (sendRegistrationIdToServer(registrationId)) {
+        storeRegistrationId(context, registrationId);
+    }
+} catch (IOException e) {
+    Log.i(TAG, "Registration failed");
+}</code>
+</pre>
